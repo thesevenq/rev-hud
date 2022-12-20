@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+	margin-bottom: -10;
+	display: flex;
+	align-items: flex-end;
+
+	font-family: 'Kanit', sans-serif;
+}
+
+.dno{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+.l{
+	margin-left: 1.04vw;
+}
+.r{
+	margin-right: 1.04vw;
+}
+.ammo-div {
+	display: none;
+	background-color: #1d1d1d;
+	font-family: 'Industry';
+	font-weight: bold;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	width: fit-content;
+	padding: 8px 20px;
+	border-radius: 7px;
+	position: absolute;
+	right: 1.1vw;
+	bottom: 5px;
+}
+
+.bullet {
+	margin-right: 15px;
+}
+
+.bullet svg {
+	width: 20px;
+	height: auto;
+}
+
+.bullets-num {
+	display: flex;
+	align-items: center;
+	font-family: 'Kanit', sans-serif;
+}
+
+.bullets-num .sarzer, .slash {
+	color: #FF2626;
+	font-family: 'Kanit', sans-serif;
+}
+
+
+.bullets-num .ukupno {
+	color: #FF2626;
+}
+
+.bullets-num .sarzer, .slash, .ukupno {
+	margin: 0 !important;
+}
+.box{
+	display: flex;
+	align-items: center;
+	height: 3.50vw;
+}
+.box .item{
+	width: 2.70vw;
+	margin-right: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.box .item p{
+	margin: 0;
+	padding: 0;
+	color: white;
+	margin-top: 0.2vw;
+	font-size: 0.67vw;
+}
+.box .item img{
+	width: 1.30vw;
+	filter: drop-shadow(0px 0px 10px #ffffff80);
+}
+
+#mozak{
+	background-image:url('img/mozak.svg');
+    width: 1.30vw;
+    height: 1.30vw;
+    background-size: cover;
+    color: white;
+
+    display: flex;
+}
+
+svg{
+	filter: drop-shadow(0px 0px 10px #111);
+	width: 1.30vw;
+}
+p{
+	text-shadow: 0px 0px 5px #111;
+}
+.rotacija{
+	width: 2.08vw;
+	filter: drop-shadow(0px 0px 5px #ff300050);
+	position: absolute;
+	top: 1vw;
+	left: 1vw;
+}
